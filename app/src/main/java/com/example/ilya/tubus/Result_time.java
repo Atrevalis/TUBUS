@@ -88,10 +88,12 @@ public class Result_time extends AppCompatActivity {
         bYes.setOnClickListener(v -> {
             Intent intent = new Intent(Result_time.this, Time.class);
             startActivity(intent);
+            finish();
         });
         bNo.setOnClickListener(v -> {
             Intent intent = new Intent(Result_time.this, Menu.class);
             startActivity(intent);
+            finish();
         });
     }
 }
