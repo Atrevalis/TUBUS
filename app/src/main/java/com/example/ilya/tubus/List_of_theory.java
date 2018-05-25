@@ -45,6 +45,7 @@ public class List_of_theory extends AppCompatActivity {
         btm.setOnClickListener(v -> {
             Intent intent = new Intent(List_of_theory.this, Menu.class);
             startActivity(intent);
+            finish();
         });
     }
 }
