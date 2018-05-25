@@ -93,15 +93,18 @@ public class Most extends AppCompatActivity {
         if (count == 21) {
             if (character.countR == 20) {
                 mark = 5;
-            }
-            if (character.countR < 20 && character.countR > 15) {
-                mark = 4;
-            }
-            if (character.countR < 16 && character.countR > 11) {
-                mark = 3;
-            }
-            if (character.countR < 12) {
-                mark = 2;
+            } else {
+                if (character.countR < 20 && character.countR > 15) {
+                    mark = 4;
+                } else {
+                    if (character.countR < 16 && character.countR > 11) {
+                        mark = 3;
+                    } else {
+                        if (character.countR < 12) {
+                            mark = 2;
+                        }
+                    }
+                }
             }
             t4.setText(("Ваша оценка: " + mark));
             bt1.setClickable(false);
