@@ -44,6 +44,7 @@ public class Time extends AppCompatActivity {
                     intent.putExtra("Fail","ВЫ  НЕ  УЛОЖИЛИСЬ  В ");
                     intent.putExtra("Time",""+time);
                     startActivity(intent);
+                    finish();
                 }
             }
         };
@@ -67,6 +68,7 @@ public class Time extends AppCompatActivity {
                 intent.putExtra("Fail"," Правильных ответов: ");
                 intent.putExtra("Time",""+time);
                 startActivity(intent);
+                finish();
             }else{set();}
 
         });
