@@ -73,6 +73,7 @@ public class Dzen extends AppCompatActivity {
         menu.setOnClickListener(v -> {
             Intent intent = new Intent(Dzen.this, Menu.class);
             startActivity(intent);
+            finish();
         });
 
     }
