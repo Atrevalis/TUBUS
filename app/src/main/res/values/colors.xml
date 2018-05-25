@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4db051</color>
+    <color name="colorPrimaryDark">#3a8f3e</color>
+    <color name="colorAccent">#8cc34b</color>
+    <color name="colorButton">#fafafa</color>
+    <color name="colorLightPrimaryColor">#c8e6c9</color>
+    <color name="colorTextIcons">#ffffff</color>
+    <color name="colorPrimaryText">#232323</color>
+    <color name="colorSecondaryText">#767676</color>
+    <color name="colorDividerColor">#bebebe</color>
+    <color name="colorGreen">#bebebe</color>
+    <color name="colorGreenLight">#bebebe</color>
+    <color name="colorBackground">#bebebe</color>
+    <color name="colorFalse">#bebebe</color>
+    <color name="colorTrue">#bebebe</color>
+
+
+
+</resources>

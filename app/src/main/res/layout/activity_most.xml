@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Most">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/Help"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/help"
+            android:background="@color/colorButton"/>
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="@dimen/font"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="@dimen/font"/>
+
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="42dp" />
+
+    <TextView
+        android:id="@+id/Example"
+        android:layout_width="match_parent"
+        android:layout_height="241dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        tools:text="erfgh" />
+
+
+    <Button
+        android:id="@+id/More"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:text="Больше" />
+
+    <Button
+        android:id="@+id/Less"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:text="Меньше" />
+
+    <Button
+        android:id="@+id/Equal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Равно" />
+
+
+</LinearLayout>
