@@ -201,6 +201,7 @@ public class Lessons extends AppCompatActivity {
         bt1.setOnClickListener(v -> {
             Intent intent = new Intent(Lessons.this, List_of_theory.class);
             startActivity(intent);
+            finish();
         });
 
     }
