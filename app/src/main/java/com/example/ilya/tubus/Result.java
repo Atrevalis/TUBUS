@@ -54,21 +54,24 @@ public class Result extends AppCompatActivity {
             mark = "5";
             tmark.setText(mark);
             emotion.setImageResource(R.drawable.mark5);
-        }
-        if (intTry < 3 && intTime < 31 ) {
-            mark = "4";
-            tmark.setText(mark);
-            emotion.setImageResource(R.drawable.mark4);
-        }
-        if (intTry < 5 && intTime < 41 ) {
-            mark = "3";
-            tmark.setText(mark);
-            emotion.setImageResource(R.drawable.mark3);
-        }
-        if (intTry >= 5 || intTime > 40) {
-            mark = "2";
-            tmark.setText(mark);
-            emotion.setImageResource(R.drawable.mark2);
+        }else {
+            if (intTry < 3 && intTime < 31) {
+                mark = "4";
+                tmark.setText(mark);
+                emotion.setImageResource(R.drawable.mark4);
+            } else {
+                if (intTry < 5 && intTime < 41) {
+                    mark = "3";
+                    tmark.setText(mark);
+                    emotion.setImageResource(R.drawable.mark3);
+                } else {
+                    if (intTry >= 5 || intTime > 40) {
+                        mark = "2";
+                        tmark.setText(mark);
+                        emotion.setImageResource(R.drawable.mark2);
+                    }
+                }
+            }
         }
 
         bthelp.setOnClickListener(v -> {
