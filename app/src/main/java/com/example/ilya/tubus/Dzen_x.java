@@ -190,8 +190,7 @@ public class Dzen_x extends AppCompatActivity {
                 intent.putExtra("Try", scountTry);
                 intent.putExtra("Time", stime);
                 startActivity(intent);
-                
-finish();
+               finish();
 
             }
 
