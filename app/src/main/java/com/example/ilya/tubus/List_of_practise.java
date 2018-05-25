@@ -25,22 +25,27 @@ public class List_of_practise extends AppCompatActivity {
         btMost.setOnClickListener(v -> {
             Intent intent = new Intent(List_of_practise.this, Most.class);
             startActivity(intent);
+            finish();
         });
         btDzen.setOnClickListener(v -> {
             Intent intent = new Intent(List_of_practise.this, Dzen.class);
             startActivity(intent);
+            finish();
         });
         btMenu.setOnClickListener(v -> {
             Intent intent = new Intent(List_of_practise.this, Menu.class);
             startActivity(intent);
+            finish();
         });
         btFIGHT.setOnClickListener(v -> {
             Intent intent = new Intent(List_of_practise.this, Fight.class);
             startActivity(intent);
+            finish();
         });
         btTime.setOnClickListener(v -> {
             Intent intent = new Intent(List_of_practise.this, Time.class);
             startActivity(intent);
+            finish();
         });
 
        }
