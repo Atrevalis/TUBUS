@@ -80,8 +80,12 @@ public class Time extends AppCompatActivity {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
                 }
-                sec = i;
-                handler.sendEmptyMessage(sec);
+                if (this.isInterrupted()){
+                    break;
+                }else {
+                    sec = i;
+                    handler.sendEmptyMessage(sec);
+                }
             }
         }
     }
