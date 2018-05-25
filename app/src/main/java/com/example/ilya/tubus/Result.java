@@ -89,10 +89,12 @@ public class Result extends AppCompatActivity {
         btYes.setOnClickListener(v -> {
             Intent intent = new Intent(Result.this, Dzen.class);
             startActivity(intent);
+            finish();
         });
         btNo.setOnClickListener(v -> {
             Intent intent = new Intent(Result.this, Menu.class);
             startActivity(intent);
+            finish();
         });
 
     }
